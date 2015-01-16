@@ -854,6 +854,7 @@ static char DZNWebViewControllerKVOContext = 0;
     
     _webView.navDelegate = nil;
     _webView.UIDelegate = nil;
+    _webView.scrollView.delegate = nil;
     _webView = nil;
     _URL = nil;
 }
